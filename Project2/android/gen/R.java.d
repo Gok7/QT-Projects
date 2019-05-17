@@ -1,0 +1,24 @@
+/home/lys/QTPROJECTS/Project2/android/gen/org/qtproject/example/Project2/R.java \
+ : /home/lys/QTPROJECTS/Project2/android/res/values-ro/strings.xml \
+/home/lys/QTPROJECTS/Project2/android/res/values-el/strings.xml \
+/home/lys/QTPROJECTS/Project2/android/res/values-pt-rBR/strings.xml \
+/home/lys/QTPROJECTS/Project2/android/res/values-ms/strings.xml \
+/home/lys/QTPROJECTS/Project2/android/res/layout/splash.xml \
+/home/lys/QTPROJECTS/Project2/android/res/values-zh-rTW/strings.xml \
+/home/lys/QTPROJECTS/Project2/android/res/values-ru/strings.xml \
+/home/lys/QTPROJECTS/Project2/android/res/values-et/strings.xml \
+/home/lys/QTPROJECTS/Project2/android/res/values-it/strings.xml \
+/home/lys/QTPROJECTS/Project2/android/res/values-nl/strings.xml \
+/home/lys/QTPROJECTS/Project2/android/res/values-ja/strings.xml \
+/home/lys/QTPROJECTS/Project2/android/res/values-rs/strings.xml \
+/home/lys/QTPROJECTS/Project2/android/res/values-fa/strings.xml \
+/home/lys/QTPROJECTS/Project2/android/res/values-fr/strings.xml \
+/home/lys/QTPROJECTS/Project2/android/res/values-id/strings.xml \
+/home/lys/QTPROJECTS/Project2/android/res/values/libs.xml \
+/home/lys/QTPROJECTS/Project2/android/res/values/strings.xml \
+/home/lys/QTPROJECTS/Project2/android/res/values-pl/strings.xml \
+/home/lys/QTPROJECTS/Project2/android/res/values-zh-rCN/strings.xml \
+/home/lys/QTPROJECTS/Project2/android/res/values-es/strings.xml \
+/home/lys/QTPROJECTS/Project2/android/res/values-de/strings.xml \
+/home/lys/QTPROJECTS/Project2/android/res/values-nb/strings.xml \
+/home/lys/QTPROJECTS/Project2/android/bin/AndroidManifest.xml \

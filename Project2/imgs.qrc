@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/imgs">
+        <file>Images/digimetrie_logo_1.png</file>
+        <file>Images/Tux.png</file>
+        <file>Images/Android_Robot_100.png</file>
+    </qresource>
+</RCC>
