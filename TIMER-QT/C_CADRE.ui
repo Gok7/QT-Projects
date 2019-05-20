@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>C_CADRE</class>
+ <widget class="QMainWindow" name="C_CADRE">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>C_CADRE</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>30</y>
+      <width>256</width>
+      <height>192</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Bouton_Marche_Arret">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>90</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Lancer</string>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="lcdNumber">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>230</y>
+      <width>64</width>
+      <height>23</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QwtSlider" name="Slider">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>40</y>
+      <width>71</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="upperBound">
+     <double>2000.000000000000000</double>
+    </property>
+    <property name="value">
+     <double>1000.000000000000000</double>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>18</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QwtSlider</class>
+   <extends>QWidget</extends>
+   <header>qwt_slider.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>Bouton_Marche_Arret</sender>
+   <signal>clicked()</signal>
+   <receiver>C_CADRE</receiver>
+   <slot>Slot_marche_arret()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>388</x>
+     <y>124</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>392</x>
+     <y>181</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Slider</sender>
+   <signal>valueChanged(double)</signal>
+   <receiver>lcdNumber</receiver>
+   <slot>display(double)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>480</x>
+     <y>232</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>281</x>
+     <y>258</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Slider</sender>
+   <signal>valueChanged(double)</signal>
+   <receiver>C_CADRE</receiver>
+   <slot>Slot_reglage_timer(double)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>466</x>
+     <y>220</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>469</x>
+     <y>301</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>Slot_affiche_coucou()</slot>
+  <slot>Slot_marche_arret()</slot>
+  <slot>Slot_reglage_timer(double)</slot>
+ </slots>
+</ui>
